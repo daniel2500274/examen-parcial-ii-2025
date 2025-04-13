@@ -1,0 +1,51 @@
+[
+  {
+    "id": "c5760dc6-1855-4027-8389-782f02b8d8c1",
+    "titulo": "De los errores se aprende",
+    "autor": "Daniel Ramirez",
+    "precio": 50056,
+    "anioPublicacion": 2018
+  },
+  {
+    "id": "b7084fbc-0f44-4604-9307-dc99a78eb441",
+    "titulo": "Errores ",
+    "autor": "Daniel",
+    "precio": 1234,
+    "anioPublicacion": 2025
+  },
+  {
+    "id": "3e9f57ac-c94d-40f0-9aa4-19d756e8ff25",
+    "titulo": "Pruebas",
+    "autor": "Daniel",
+    "precio": 234,
+    "anioPublicacion": 2025
+  },
+  {
+    "id": "a74a1018-f916-4ab6-ba5a-0b2387374403",
+    "titulo": "pruebas",
+    "autor": "daniel",
+    "precio": 1234,
+    "anioPublicacion": 2025
+  },
+  {
+    "id": "33f909d6-84f3-40d1-af13-477c3fe57d19",
+    "titulo": "asdfghjk",
+    "autor": "daniel",
+    "precio": 12,
+    "anioPublicacion": 2025
+  },
+  {
+    "id": "20993654-9b3c-4ceb-9eaf-112f8f52904d",
+    "titulo": "qwertyuikmnbvcd",
+    "autor": "daniel",
+    "precio": 1230,
+    "anioPublicacion": 2025
+  },
+  {
+    "id": "9a4309d1-62a6-4094-b833-80e869e5b45b",
+    "titulo": "Daniel pruebas",
+    "autor": "daniel",
+    "precio": 1234,
+    "anioPublicacion": 2025
+  }
+]

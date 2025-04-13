@@ -1,115 +1,80 @@
-# 📚 Examen Parcial II - Programación I | Sistema de Librería en Consola
+# 📚 BiblioManager - El Rincón del Saber 🧠
 
-## Contexto
+## Erick Daniel Ramirez Divas
 
-Has sido contratado por una pequeña librería local llamada **"El Rincón del Saber"**.  
-El dueño de la librería quiere modernizar la forma en la que administra su catálogo de libros y necesita una **aplicación de consola** para gestionar su inventario.
-
-Tu misión es desarrollar un sistema simple pero funcional que le permita **agregar, editar, buscar, eliminar y analizar** los libros que tiene a la venta.  
-Este proyecto pondrá a prueba todo lo que has aprendido durante el curso hasta ahora.
+¡Una aplicación de consola moderna para gestionar el inventario de tu librería favorita! ✨ Desarrollada con Node.js.
 
 ---
 
-## 🎯 Requisitos del sistema
+## 📖 Acerca del Proyecto
 
-### Menú principal
+Este proyecto es una simulación de un sistema de gestión de inventario para la librería ficticia **"El Rincón del Saber"
+**. Nació como parte del Examen Parcial II de Programación I, con el objetivo de aplicar los conocimientos adquiridos en
+JavaScript y Node.js para crear una herramienta útil y funcional.
 
-El sistema debe mostrar el siguiente menú (puedes usar `switch` o `if-else`):
-
-```
-1. Agregar libro
-2. Mostrar catálogo
-3. Buscar libro por título
-4. Eliminar libro
-5. Ver estadísticas
-6. Ordenar libros
-7. Editar libro
-8. Salir
-```
+Permite administrar un catálogo de libros directamente desde la terminal 🖥️, ofreciendo las operaciones esenciales para
+mantener el inventario organizado.
 
 ---
 
-## ✅ Funcionalidades obligatorias
+## ✨ Funcionalidades Implementadas
 
-### 1. Agregar libro
+¡Gestiona tu librería como un profesional con estas opciones!
 
-Solicitar al usuario los siguientes datos:
-
--   Título
--   Autor
--   Precio
--   Año de publicación
-
-Guardar el libro como un objeto dentro de un arreglo llamado `catalogo`.
-
-### 2. Mostrar catálogo
-
-Mostrar todos los libros registrados en el sistema en un formato ordenado.
-
-### 3. Buscar libro por título
-
-Permitir al usuario ingresar el título de un libro y mostrar sus datos si existe.  
-Si no se encuentra, mostrar `"Libro no encontrado"`.
-
-### 4. Eliminar libro
-
-Solicitar un título y eliminar el libro correspondiente del catálogo.  
-Confirmar si fue eliminado correctamente.
-
-### 5. Ver estadísticas
-
-Mostrar:
-
--   Cantidad total de libros
--   Precio promedio
--   Libro más antiguo
--   Libro más caro
-
-### 6. Ordenar libros
-
-Permitir ordenar el catálogo por:
-
--   Precio (ascendente o descendente)
--   Año de publicación
-
-El usuario debe poder elegir el criterio de ordenamiento.
-
-### 7. Editar libro
-
-Permitir editar un libro existente: buscar por título y modificar sus datos.
-
-### 8. Salir
-
-Finalizar el programa.
+* ➕ **Agregar Libro:** Incorpora nuevos tesoros literarios al catálogo (Título, Autor, Precio, Año).
+* 👀 **Mostrar Catálogo:** Visualiza todos los libros registrados, ¡bien ordenaditos!
+* 🔎 **Buscar Libro por Título:** ¿Buscas algo específico? Encuéntralo en segundos por su nombre.
+* 👤 **Filtrar por Autor (Extra):** Descubre todas las obras de tu autor preferido en el catálogo.
+* 🗑️ **Eliminar Libro:** Retira libros del inventario (¡te pedirá confirmación antes! 😉).
+* 📊 **Ver Estadísticas:** Obtén datos clave:
+    * 🔢 Cantidad total de libros.
+    * 💰 Precio promedio.
+    * 👴 Libro más antiguo.
+    * 💎 Libro más caro.
+* ⇅ **Ordenar Libros:** Organiza el catálogo por `Precio` o `Año de publicación` (ascendente o descendente). ¡Tú eliges!
+* ✏️ **Editar Libro:** ¿Un error en los datos? Modifica la información de un libro existente fácilmente.
+* 🚪 **Salir:** Cierra la aplicación con un mensaje amigable. ¡Hasta pronto! 👋
 
 ---
 
-## 🔧 Requisitos técnicos
+## 🚀 Tecnologías Utilizadas
 
--   Usar **funciones** para cada acción.
--   Utilizar **arreglos de objetos**.
--   Aplicar al menos **4 métodos de arreglo** como `.push()`, `.filter()`, `.find()`, `.sort()`, `.reduce()`, etc.
--   Utilizar **bucles (`while`, `do...while` o `for`)** para mantener el menú activo.
--   Validar datos básicos (por ejemplo, que el precio sea un número positivo).
--   El sistema debe ejecutarse desde la terminal y mostrar información clara.
+Las herramientas mágicas detrás de BiblioManager:
 
----
-
-## ✨ Puntos extra
-
--   Usar colores en la consola (`chalk`, `colors`, etc.).
--   Crear una función para guardar el catálogo en un archivo (`fs.writeFileSync`).
--   Agregar una opción para **filtrar libros por autor**.
+* **Lenguaje:** JavaScript (ejecutado con Node.js)
+* **Manejo de Paquetes:** npm
+* **Interfaz de Consola Interactiva:** `inquirer` (¡para esos menús y preguntas tan chulos!)
+* **Estilo en Consola:** `colors` (¡porque la vida necesita color!) 🎨
+* **IDs Únicos:** `uuid` (para que cada libro tenga su identidad secreta 🕵️)
+* **Persistencia de Datos:** Módulo `fs` de Node.js para leer/escribir en un archivo JSON (`data/database.json`).
 
 ---
 
-## 🧪 Entrega
+## ⚙️ Instalación y Configuración
 
-1. Crea un repositorio llamado `examen-final-libreria` en tu GitHub.
-2. Sube el proyecto con tu solución (excluyendo la carpeta `node-modules`).
-3. Agrega un archivo `README.md` con una breve explicación.
-4. Envía el enlace de tu repositorio el espacio para la entrega
+¡Manos a la obra! Para ejecutar este proyecto en tu máquina:
+
+1. **Clona el repositorio:** (Reemplaza `<URL_DEL_REPOSITORIO>` con la URL real)
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   cd examen-final-libreria
+   ```
+2. **Instala las dependencias:** Necesitarás Node.js y npm instalados previamente.
+   ```bash
+   npm install
+   ```
+   *Este comando descarga todas las librerías necesarias (`inquirer`, `colors`, `uuid`) que están listadas
+   en `package.json`.*
 
 ---
 
-### ¡Mucho éxito! Que tu código sea tan organizado como tu librería 🧠📖
+## ▶️ Cómo Ejecutar la Aplicación
+
+¡Es hora de abrir la librería! 🏪
+
+Una vez que tengas las dependencias instaladas, ejecuta el siguiente comando desde la carpeta raíz del proyecto:
+
+```bash
+npm run start 
+o
+node src/main.js
